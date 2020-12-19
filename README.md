@@ -28,16 +28,25 @@ Complete the following tasks:
 
 Use the [newsapi](https://newsapi.org/) to pull the latest news articles for Bitcoin and Ethereum and create a DataFrame of sentiment scores for each coin.
 
-Use descriptive statistics to answer the following questions:
+Use descriptive statistics to answer the following questions
+#
+#  Questions:
 
-#### Which coin had the highest mean positive score?
-#### Ethereum has the higher mean positive score (0.057) compared to Bitcoin (0.050).
-#### Which coin had the highest negative score?
-#### Based on the descriptive statistics, Ethereum has the highest compound score at 0.87 vs. the maximum compound score of 0.76 from Bitcoin.
-#### Which coin had the highest positive score?
-#### Ethereum has the highest positive score at 0.31 maximum  compared to 0.17 maximum received by Bitcoin.
+#### Q: Which coin had the highest mean positive score?
 
-#### Natural Language Processing
+#### A: Bitcoin has the higher mean positive score (0.089) compared to Bitcoin (0.041).
+
+#### Q: Which coin had the highest compound score?
+
+#### A: Based on the descriptive statistics, Ethereum has the highest compound score at 0.87 vs. the maximum compound score of 0.81 from Bitcoin.
+
+#### Q. Which coin had the highest positive score?
+
+#### A: Ethereum has the highest positive score at 0.31 maximum  compared to 0.20 maximum received by Bitcoin.
+![btc-sent.jpg](Images/btc-sent.jpg)
+![eth-sent.jpg](Images/eth-sent.jpg)
+#
+# Natural Language Processing
 
 In this section, you will use NLTK and Python to tokenize the text for each coin. Be sure to:
 
@@ -52,17 +61,22 @@ Next, look at the ngrams and word frequency for each coin.
 
 Finally, generate word clouds for each coin to summarize the news for each coin.
 
-![btc-word-cloud.png](Images/btc-word-cloud.png)
+![btc-word-cloud.png](Images/btc-word.jpg)
 
-![eth-word-cloud.png](Images/eth-word-cloud.png)
+![eth-word-cloud.png](Images/eth-word.jpg)
 
 #### Named Entity Recognition
 
 In this section, you will build a named entity recognition model for both coins and visualize the tags using SpaCy.
 
-![btc-ner.png](Images/btc-ner.png)
+![btc-ner1.jpg](Images/btc-ner1.jpg)
+![btc-ner2.jpg](Images/btc-ner2.jpg)
 
-![eth-ner.png](Images/eth-ner.png)
+![eth-ner1.jpg](Images/eth-ner1.jpg)
+![eth-ner2.jpg](Images/eth-ner2.jpg)
+![eth-ner3.jpg](Images/eth-ner3.jpg)
+
+
 
 ---
 
